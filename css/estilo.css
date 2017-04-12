@@ -1,0 +1,88 @@
+/* CSS Document */
+
+img{
+	border: 0;
+}
+
+#conteudo{
+	margin:auto;
+	width: 900px;
+	height: 200px;
+}
+
+#conteudo #lista{
+	float: left;
+	margin: auto;
+	width: 260px;
+	height: 174px;
+	border-right: 1px dotted #333;
+}
+
+#conteudo #lista p{
+	font: 13px Verdana, Geneva, sans-serif;
+	margin: 0;
+}
+
+#conteudo #lista .linha{
+	margin: 5px 0;
+	width: 260px;
+	height:20px;
+}
+
+#conteudo #lista .linha .leng{
+	font: 13px Verdana, Geneva, sans-serif;
+	float: left;
+	width: 190px;
+}
+
+#conteudo #lista .linha .bt{
+	float: left;
+	margin: 2px 0 0 10px;
+}
+
+#conteudo #lista .linha .bt a + a{
+	margin: 0 0 0 5px;
+	border: 0;
+}
+
+#conteudo #formulario{
+	margin: 0 0 0 20px;
+	width: 330px;
+	float: left;
+}
+
+#conteudo #formulario label{
+	font: 13px Verdana, Geneva, sans-serif;
+}
+
+#conteudo #formulario input[type="text"]{
+	font: 13px Verdana, Geneva, sans-serif;
+	border: 1px solid #999;
+	width: 300px;
+	color: #03F;
+}
+
+#conteudo #formulario input[type="file"]{
+	margin: 10px 0 0 0;
+}
+
+#conteudo #formulario input[type="submit"]{
+	font: bold 15px Verdana, Geneva, sans-serif;
+	border: 1px solid #999;
+	cursor: pointer;
+	padding: 5px 0;
+	width: 300px;
+}
+
+#conteudo #imagem{
+	float: left;
+	margin: auto;
+	width: 260px;
+	height: 174px;
+}
+
+#conteudo #imagem img{
+	margin: 10px 0 0 10px;
+	width: 240px;
+	border: 0;
+}
